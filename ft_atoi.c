@@ -38,20 +38,3 @@ int	ft_atoi(const char *str)
 	}
 	return ((int)num * minus);
 }
-/*
-#include <stdlib.h>
-#include <stdio.h>
-int main(void)
-{
-	char	s[50] = "  +0";
-	int		a;
-	int		ft;
-
-	printf("str is: %s\n", s);
-	a = atoi(s);
-	printf("atoi: %d\n", a);
-	ft = ft_atoi(s);
-	printf("ft: %d\n", ft);
-	return (0);
-}
-*/

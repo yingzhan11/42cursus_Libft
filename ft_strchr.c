@@ -25,18 +25,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)(s + i));
 	return (NULL);
 }
-
-/*
-#include <string.h>
-#include <stdio.h>
-
-int	main(void)
-{
-	char *s = "";
-	int	c = 'l';
-
-	printf("strchr: %s\n", strchr(s, c));
-	printf("ft: %s\n", ft_strchr(s, c));
-	return (0);
-}
-*/

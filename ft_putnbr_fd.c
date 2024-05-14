@@ -35,22 +35,3 @@ void	ft_putnbr_fd(int n, int fd)
 		write(fd, &c, 1);
 	}
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	int n1 = 2147483647;
-	int n2 = -2147483648;
-	int n3 = 2;
-	int	fd = 0;
-
-	ft_putnbr_fd(n1, fd);
-	write(1, "\n", 1);
-	ft_putnbr_fd(n2, fd);
-	write(1, "\n", 1);
-	ft_putnbr_fd(n3, fd);
-	write(1, "\n", 1);
-	return (0);
-}
-*/

@@ -21,16 +21,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-
-/*
-#include <string.h>
-#include <stdio.h>
-int	main(void)
-{
-	char	*s = "hel\0dd";
-
-	printf("strlen: %zu\n", strlen(s));
-	printf("ft: %zu\n", ft_strlen(s));
-	return (0);
-}
-*/

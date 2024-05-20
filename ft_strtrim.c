@@ -29,16 +29,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trim_s = ft_substr(s1, i, (j - i + 1));
 	return (trim_s);
 }
-/*
-#include <stdio.h>
-int main(void)
-{
-	char	*s1 = "lorem \n ipsum \t dolor \n sit \t amet";
-	char	*set = " ";
-	char	*trim;
-
-	trim = ft_strtrim(s1, set);
-	printf("%s\n", trim);
-	return (0);
-}
-*/

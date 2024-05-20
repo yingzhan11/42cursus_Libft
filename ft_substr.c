@@ -38,19 +38,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[i] = '\0';
 	return (substr);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-int	main(void)
-{
-	char			*s = "hola";
-	unsigned int	start = 0;
-	size_t			len = -1;
-	char			*substr;
-
-	substr = ft_substr(s, start, len);
-	printf("substr: %s\n", substr);
-	//printf("substr length: %lu\n", strlen(substr));
-	return (0);
-}
-*/

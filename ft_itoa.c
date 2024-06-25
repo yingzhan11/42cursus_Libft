@@ -59,8 +59,6 @@ char	*ft_itoa(int n)
 	int		count;
 	char	*str;
 
-	if (n > 2147483647 || n < -2147483648)
-		return (NULL);
 	count = ft_count(n);
 	if (n >= 0)
 		str = (char *)malloc(sizeof(char) * (count + 1));

@@ -38,3 +38,21 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
+/*
+#include <string.h>
+#include <stdio.h>
+int	main(void)
+{
+	char	src1[50] = "1234567890";
+	char	src2[50] = "1234567890";
+	size_t	len;
+	len = 16;
+	printf("src1 is %s\nsrc2 is %s\n", src1, src2);
+	printf("len is %zu\n", len);
+	memmove(src1 + 5, src1, len);
+	printf("after memmove src1:%s\n", src1);
+	ft_memmove(src2 + 5, src2, len);
+	printf("af ft_memmove src2:%s\n", src2);
+	return (0);
+}
+*/

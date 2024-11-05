@@ -26,3 +26,34 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(p, total);
 	return (p);
 }
+/*
+#include <stdio.h>
+int	main(void)
+{
+	size_t count =25;
+	size_t i;
+	
+	int* ca = (int*)calloc(count, sizeof(int));
+	if (!ca)
+		return (1);
+	i = 0;
+	while (i < count)
+	{
+		printf("%d", ca[i]);
+		i++;
+	}
+	printf("\n");
+	int* ft = (int*)ft_calloc(count, sizeof(int));
+	if (!ft)
+		return (1);
+	i = 0;
+	while (i < count)
+	{
+		printf("%d", ft[i]);
+		i++;
+	}
+	printf("\n");
+	free (ca);
+	free (ft);
+}
+*/

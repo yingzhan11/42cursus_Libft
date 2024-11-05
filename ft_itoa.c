@@ -76,3 +76,16 @@ char	*ft_itoa(int n)
 	str = ft_putchr(str, n, count);
 	return (str);
 }
+/*
+#include <stdio.h>
+int	main(void)
+{
+	int	n = 124;
+	//char	*str;
+	//str = ft_itoa(n);
+	//printf("%d\n", n);
+	printf("%s\n", ft_itoa(n));
+	printf("%d\n", n);
+	return (0);
+}
+*/

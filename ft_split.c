@@ -105,3 +105,26 @@ char	**ft_split(char const *s, char c)
 	split[j] = 0;
 	return (split);
 }
+/*
+#include <stdio.h>
+int	main(void)
+{
+	//char	*s = "hello!";
+	char	c = ' ';
+	char	**split;
+	int		i;
+	i = 0;
+	split = ft_split(NULL, c);
+	if (!split)
+	{
+		printf("(NULL)\n");
+		return (0);
+	}
+	while (split[i] != 0)
+	{
+		printf("%s\n", split[i]);
+		i++;
+	}
+	return (0);
+}
+*/

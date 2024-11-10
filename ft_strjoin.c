@@ -35,3 +35,15 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	new_str[i] = '\0';
 	return (new_str);
 }
+/*
+#include <stdio.h>
+int	main(void)
+{
+	char	*s1 = "";
+	char	*s2 = "";
+	char	*new_str;
+	new_str = ft_strjoin(s1, s2);
+	printf("%s\n", new_str);
+	return (0);
+}
+*/

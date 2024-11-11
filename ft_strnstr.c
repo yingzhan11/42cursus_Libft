@@ -39,3 +39,19 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
+/*
+#include <stdio.h>
+#include <string.h>
+int	main(void)
+{
+	char	str1[20] = "";
+	char	str2[20] = "";
+	char	find[20] = "1";
+	size_t	len = 1;
+	char	*result1 = strnstr(str1, find, len);
+	printf("strnstr: %s\n", result1);
+	char	*result2 = ft_strnstr(str2, find, len);
+	printf("ft: %s\n", result2);
+	return (0);
+}
+*/

@@ -30,3 +30,24 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (srcsize);
 }
+/*
+#include <stdio.h>
+#include <string.h>
+int	main(void)
+{
+	char	*src = NULL;
+	char	*dst1 = NULL;
+	char	*dst2 = NULL;
+	size_t	d = 8;
+	size_t	d_strlcpy;
+	size_t	d_ft;
+	printf("src: %s, length of src: %lu\n", src, strlen(src));
+	d_strlcpy = strlcpy(dst1, src, d);
+	printf("dst1: %s, src length: %zu\n", dst1, d_strlcpy);
+	printf("dst1 length: %lu\n", strlen(dst1));
+	d_ft = ft_strlcpy(dst2, src, d);
+	printf("dst2: %s, src length: %zu\n", dst2, d_ft);
+	printf("dst2 length: %lu\n", strlen(dst2));
+	return (0);
+}
+*/
